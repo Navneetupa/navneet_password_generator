@@ -42,7 +42,6 @@ document.addEventListener("DOMContentLoaded", () => {
           alert("Please generate the password first!");
       }
   }
-  
 
   lengthSlider.addEventListener("input", function () {
       lengthValue.textContent = this.value;
